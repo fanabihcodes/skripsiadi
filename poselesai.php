@@ -243,6 +243,8 @@ $result = mysqli_query($conn, $sql);
     </table>
     <br>
     <button type="submit" class="btn btn-primary" >Cetak</button>
+     <input type="checkbox" id="checkAll" class="btn btn-primary">Check All</input>
+
 </form>
 
 <script>
@@ -414,5 +416,6 @@ document.getElementById("checkAll").addEventListener("change", function() {
         </div>
     </div>
 </div>
+
 
 </html>
